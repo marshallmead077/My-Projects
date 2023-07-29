@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set up columns */
+  .column {
+    float: left;
+    width: 50%;
+    position: relative;
+  }
+  
+  /* Clear floats after columns */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Center content */
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Style buttons */
+  button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
