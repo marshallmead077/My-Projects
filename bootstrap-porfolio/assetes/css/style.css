@@ -1,5 +1,9 @@
 body{
     font-family: 'Source Code Pro', monospace !important;
-    background-image: url("../img/background.jpg");
-    background-size: cover;
+}
+
+
+img.card-img-top{
+    width: 60%;
+    
 }
