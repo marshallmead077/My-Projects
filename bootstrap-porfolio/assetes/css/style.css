@@ -7,12 +7,15 @@ img.card-img-top{
     width: 100%;
     
 }
-
+h1,body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+  }
+  
 @media screen and (max-width: 320px) {
 
-    .card-text{
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+    .card{
+   width: 18rem;
 }
 }
