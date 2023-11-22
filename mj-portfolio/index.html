@@ -10,7 +10,23 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="w3-light-grey">
-
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#About">About</a>
+    <a href="#Writing-Examples">Writing Examples</a>
+    <a href="#Web-Projects">Web Projects</a>
+    <a href="#">Database Projects</a>
+    <a href="#">Programming Projects</a>
+    <a href="#">Soft Skills Projects</a>
+    <a href="#">Capstone Project</a>
+    <a href="#">Contact</a>
+    
+  </div>
+  
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+  </div>
+  
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
@@ -74,11 +90,10 @@
 
     <!-- End Left Column -->
     </div>
-
     <!-- Right Column -->
     <div class="w3-twothird">
     
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <div class="w3-container w3-card w3-white w3-margin-bottom" id="About">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
@@ -161,14 +176,49 @@
           <p>Bachelor Degree</p><br>
         </div>
       </div>
+      <br>
+      <div class="w3-container w3-card w3-white" id="Writing-Examples">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Writing Examples</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+      </div>
+      </div>
+      <br>
+      <div class="w3-container w3-card w3-white" id="Web-Projects">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Web Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+      </div>
+      </div>
+      
     <!-- End Right Column -->
+    
+    <button onclick="topFunction()" id="btn1" title="Go to top">Top</button> 
     </div>
     
   <!-- End Grid -->
   </div>
-  
+
   <!-- End Page Container -->
+  
 </div>
+
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
   <p>Find me on social media.</p>
@@ -180,6 +230,6 @@
   <i class="fa fa-linkedin w3-hover-opacity"></i>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
-
+<script src="assets/js/script.js" charset="utf-8"></script>
 </body>
 </html>
